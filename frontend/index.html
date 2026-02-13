@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NeuroArt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+  <h1>🎨 NeuroArt</h1>
+  <textarea id="prompt" placeholder="Describe your image..."></textarea>
+
+  <select id="ratio">
+    <option value="1:1">Square</option>
+    <option value="9:16">Reel / Story</option>
+  </select>
+
+  <button onclick="generate()">Generate</button>
+
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
